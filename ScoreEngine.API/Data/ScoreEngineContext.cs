@@ -13,7 +13,8 @@ namespace ScoreEngine.API.Data
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            _ = optionsBuilder.UseSqlServer("Data Source=DESKTOP-91ERRPG\\SQLEXPRESS;Initial Catalog=ScoreEngineDb;Integrated Security=SSPI;");
+            // _ = optionsBuilder.UseSqlServer("Data Source=DESKTOP-91ERRPG\\SQLEXPRESS;Initial Catalog=ScoreEngineDb;Integrated Security=SSPI;");
+            _ = optionsBuilder.UseSqlServer("Data Source=den1.mssql7.gear.host;Initial Catalog=scoreenginedb;User Id=scoreenginedb;Password=Aw587w?-1R3J");
         }
     }
 }
